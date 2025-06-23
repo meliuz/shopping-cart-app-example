@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: meliuz/shopping-cart-app-example
+  description: "# Welcome to your Expo app \U0001F44B\n\nThis is an [Expo](https://expo.dev)\
+    \ project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-a..."
+  name: shopping-cart-app-example
+spec:
+  lifecycle: production
+  type: service
