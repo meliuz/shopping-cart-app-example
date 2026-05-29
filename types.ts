@@ -1,0 +1,8 @@
+export type Product = {
+  id: number;
+  name: string;
+  price: number;
+  cashback: number;
+  image: string;
+  inCart?: boolean;
+};
